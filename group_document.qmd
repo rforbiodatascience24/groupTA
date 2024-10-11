@@ -7,11 +7,19 @@ format: html
 
 ## Jonathan
 
+## New feature
+
 Yes, this is me
+
 ```{r}
+
 print('Welcome Saturday')
 ```
 
+```{r}
+# This is second work!
+print('Unwelcome Monday')
+```
 
 ## Puck
 
@@ -21,13 +29,12 @@ Bananas
 1+1
 ```
 
-### New stuff
-
-This sh*t is bananas, B A N A N A S
+This sh\*t is bananas, B A N A N A S
 
 ```{r}
 1+2
 ```
+
 
 Oranges are nice too :)
 
@@ -50,6 +57,18 @@ df2 <- df |>
   mutate(z = y*2)
 ```
 
+THIS IS NEW!!1!
+
+## New analysis
+
+Very new and bananas analysis go here.
+
+```{r}
+df3 <- df2 |> 
+  group_by(x) |> 
+  summarise(x, mean(y))
+```
+
 ## Frederik
 
 Frederik's personal section. We are doing work, yes.
@@ -64,4 +83,14 @@ ggplot(data = data.frame(x = rnorm(100),
   theme_minimal()
 ```
 
+### New stuff (pretty cool)
 
+```{r}
+library(tidyverse)
+ggplot(data = data.frame(x = rchisq(100, 0, 50),
+                         y = rbeta(100, 1, 8)),
+       mapping = aes(x=x,
+                     y=y)) + 
+  geom_point() +
+  theme_minimal()
+```
