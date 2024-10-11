@@ -1,0 +1,22 @@
+---
+title: "Group Document"
+format: html
+---
+
+# The amazingly fantastic and cool TAs
+
+## Jonathan
+
+Jonathan's personal section.
+
+## Puck
+
+Puck's personal section.
+
+## Amanda
+
+Amanda's personal section.
+
+## Frederik
+
+Frederik's personal section.
