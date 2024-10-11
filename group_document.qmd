@@ -22,6 +22,12 @@ print('Welcome Saturday')
 print('Unwelcome Monday')
 ```
 
+We are doing againnn
+```{r}
+print("let's do this again")
+```
+
+
 ## Puck
 
 Bananas
