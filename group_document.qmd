@@ -11,7 +11,12 @@ Jonathan's personal section.
 
 ## Puck
 
-Puck's personal section.
+Bananas
+
+```{r}
+1+1
+```
+
 
 ## Amanda
 
