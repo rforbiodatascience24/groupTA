@@ -30,6 +30,16 @@ Bananas
 1+1
 ```
 
+
+
+This sh*t is bananas, B A N A N A S
+
+```{r}
+1+2
+```
+
+
+
 ## Amanda
 
 Amanda's personal section.
