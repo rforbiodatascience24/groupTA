@@ -8,10 +8,10 @@ format: html
 ## Jonathan
 
 Yes, this is me
+
 ```{r}
 print('Welcome Saturday')
 ```
-
 
 ## Puck
 
@@ -20,7 +20,6 @@ Bananas
 ```{r}
 1+1
 ```
-
 
 ## Amanda
 
@@ -41,6 +40,16 @@ df2 <- df |>
   mutate(z = y*2)
 ```
 
+## New analysis
+
+Very new and bananas analysis go here.
+
+```{r}
+df3 <- df2 |> 
+  group_by(x) |> 
+  summarise(x, mean(y))
+```
+
 ## Frederik
 
 Frederik's personal section. We are doing work, yes.
@@ -54,5 +63,3 @@ ggplot(data = data.frame(x = rnorm(100),
   geom_point() +
   theme_minimal()
 ```
-
-
