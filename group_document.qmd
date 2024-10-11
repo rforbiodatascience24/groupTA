@@ -93,6 +93,7 @@ ggplot(data = data.frame(x = rnorm(100),
 
 ```{r}
 library(tidyverse)
+1+1
 ggplot(data = data.frame(x = rchisq(100, 0, 50),
                          y = rbeta(100, 1, 8)),
        mapping = aes(x=x,
