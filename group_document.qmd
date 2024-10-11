@@ -72,3 +72,14 @@ ggplot(data = data.frame(x = rnorm(100),
   geom_point() +
   theme_minimal()
 ```
+
+### New stuff (pretty cool)
+```{r}
+library(tidyverse)
+ggplot(data = data.frame(x = rchisq(100, 0, 50),
+                         y = rbeta(100, 1, 8)),
+       mapping = aes(x=x,
+                     y=y)) + 
+  geom_point() +
+  theme_minimal()
+```
