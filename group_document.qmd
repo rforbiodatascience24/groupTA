@@ -7,9 +7,18 @@ format: html
 
 ## Jonathan
 
+## New feature
+
 Yes, this is me
+
 ```{r}
+
 print('Welcome Saturday')
+```
+
+```{r}
+# This is second work!
+print('Unwelcome Monday')
 ```
 
 
@@ -20,7 +29,6 @@ Bananas
 ```{r}
 1+1
 ```
-
 
 ## Amanda
 
@@ -54,5 +62,3 @@ ggplot(data = data.frame(x = rnorm(100),
   geom_point() +
   theme_minimal()
 ```
-
-
