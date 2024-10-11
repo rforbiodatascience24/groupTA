@@ -16,11 +16,11 @@ Yes, this is me
 print('Welcome Saturday')
 ```
 
+
 ```{r}
 # This is second work!
 print('Unwelcome Monday')
 ```
-
 
 ## Puck
 
@@ -47,6 +47,16 @@ df <- tibble(x = c(1,2,3)) |>
 ```{r}
 df2 <- df |> 
   mutate(z = y*2)
+```
+
+## New analysis
+
+Very new and bananas analysis go here.
+
+```{r}
+df3 <- df2 |> 
+  group_by(x) |> 
+  summarise(x, mean(y))
 ```
 
 ## Frederik
