@@ -17,6 +17,21 @@ Puck's personal section.
 
 Amanda's personal section.
 
+Hello, and welcome to my section.
+
+Let's run some code!
+
+```{r}
+library("tidyverse")
+df <- tibble(x = c(1,2,3)) |> 
+  mutate(y = x*2)
+```
+
+```{r}
+df2 <- df |> 
+  mutate(z = y*2)
+```
+
 ## Frederik
 
 Frederik's personal section.
