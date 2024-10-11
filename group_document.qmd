@@ -16,7 +16,6 @@ Yes, this is me
 print('Welcome Saturday')
 ```
 
-
 ```{r}
 # This is second work!
 print('Unwelcome Monday')
@@ -30,15 +29,11 @@ Bananas
 1+1
 ```
 
-
-
-This sh*t is bananas, B A N A N A S
+This sh\*t is bananas, B A N A N A S
 
 ```{r}
 1+2
 ```
-
-
 
 ## Amanda
 
@@ -58,6 +53,8 @@ df <- tibble(x = c(1,2,3)) |>
 df2 <- df |> 
   mutate(z = y*2)
 ```
+
+THIS IS NEW!!1!
 
 ## New analysis
 
@@ -84,6 +81,7 @@ ggplot(data = data.frame(x = rnorm(100),
 ```
 
 ### New stuff (pretty cool)
+
 ```{r}
 library(tidyverse)
 ggplot(data = data.frame(x = rchisq(100, 0, 50),
