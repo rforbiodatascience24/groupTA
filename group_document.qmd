@@ -19,4 +19,16 @@ Amanda's personal section.
 
 ## Frederik
 
-Frederik's personal section.
+Frederik's personal section. We are doing work, yes.
+
+```{r}
+library(tidyverse)
+ggplot(data = data.frame(x = rnorm(100),
+                         y = rnorm(100)),
+       mapping = aes(x=x,
+                     y=y)) + 
+  geom_point() +
+  theme_minimal()
+```
+
+
