@@ -32,3 +32,5 @@ The `echo: false` option disables the printing of code (only output is displayed
 2 + 2
 ```
 Amanda is adding some content here :) 
+
+something completely new!
