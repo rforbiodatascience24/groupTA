@@ -12,6 +12,8 @@ Here is something new.
 
 ## Running Code
 
+Also down here.
+
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
@@ -31,4 +33,5 @@ The `echo: false` option disables the printing of code (only output is displayed
 #| echo: false
 2 + 2
 ```
-Amanda is adding some content here :) 
+
+Amanda is adding some content here :)
